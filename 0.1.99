@@ -1,0 +1,5 @@
+Requirement already satisfied: langsmith in c:\users\user\anaconda3\lib\site-packages (0.4.41)
+Collecting version
+  Downloading version-0.1.1.tar.gz (2.0 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'error'

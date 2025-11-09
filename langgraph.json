@@ -1,0 +1,7 @@
+{
+    "dependencies":["."],
+    "graphs":{
+        "laod_langgraph_app":"./career_chatbot/graphs/graph_builder.py:graph"
+    },
+    "env":"./.env"
+}

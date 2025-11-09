@@ -14,7 +14,7 @@ class RAGConfig(BaseModel):
 
 
 class Config:
-    def __init__(self, config_file=".career_chatbot/data_loader/ragconfigfile.ini")->RAGConfig:
+    def __init__(self, config_file="./career_chatbot/data_loader/ragconfigfile.ini")->RAGConfig:
         self.config = ConfigParser()
         if not os.path.exists(config_file):
             raise FileExistsError(f"Config file not found: {config_file}")
