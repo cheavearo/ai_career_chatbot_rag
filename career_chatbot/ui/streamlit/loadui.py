@@ -20,7 +20,7 @@ class LoadStreamlitUI:
         with st.sidebar:
             self.user_controls["OPENAI_API_KEY"] =st.session_state["OPENAI_API_KEY"]=st.text_input("OPENAI_API_KEY",type="password")
             if not self.user_controls["OPENAI_API_KEY"]:
-                st.warning("⚠️ Please enter your Groq API key to proceed. Don't have? refer : https://console.groq.com/keys")
+                st.warning("⚠️ Please enter your OpenAI API key to proceed. Don't have? refer : https://platform.openai.com/api-keys")
                 return None
         
         # Set in environment so downstream code can use it

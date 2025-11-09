@@ -71,10 +71,11 @@ class GraphBuilder:
 
 from dotenv import load_dotenv
 load_dotenv()
+import os
 
 
 #os.environ['GROQ_API_KEY'] = os.getenv("GROQ_API_KEY")
-os.environ['LANGSMITH_API_KEY'] = os.getenv("LANGSMITH_API_KEY")
+#os.environ['LANGSMITH_API_KEY'] = os.getenv("LANGSMITH_API_KEY")
 import os
 
 
@@ -82,7 +83,7 @@ import os
   
 
     
-
+"""
 ## Below code is for the LangGraph studio
 llm = OpenAILLM(
     user_controls_input={
@@ -94,5 +95,5 @@ llm = OpenAILLM(
 graph_builder=GraphBuilder(llm)
 graph=graph_builder.rag_chatbot_build_graph().compile()
     
-
+"""
 

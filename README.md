@@ -1,76 +1,55 @@
-🚀 Project Title
+## Project Title: **Vearo | Personal Career Virtual Assistant**
 
-AI-Powered Personal Career Chatbot (RAG + Web Search + Branding)
+AI-Powered Virtual Assistant Chatbot (RAG + Web Search + Branding)
 
-📌 Project Description
+### Project Description
 
-Stand out from the crowd with your own AI professional career chatbot.
+This is my personal AI Virtual Assistant — a next-generation RAG-powered and knowledge-based chatbot that represents me with intelligence, accuracy, and personality.
 
-This chatbot perfectly represents you (or your client) by combining:
 
-Retrieval-Augmented Generation (RAG): Chatbot answers questions directly from your CV, portfolio, blog posts, and personal branding materials.
 
-MCP Server Web Search Integration: Keeps your chatbot updated with the latest info from the web, so it never feels outdated.
+## Features
 
-Personal Branding Intelligence: Tailored to reflect your unique tone, expertise, and professional value.
+- **Personal Branding Chatbot**: AI chatbot trained on my professional documents (CV, portfolio, LinkedIn posts, etc.) integrated with GTP-4.O Mini model.
 
-Whether you’re a freelancer, job seeker, or thought leader, this chatbot works as a 24/7 career assistant and personal branding booster.
+- **Retrieval-Augmented Generation (RAG)**: AI chatbot trained on my professional documents (CV, portfolio, LinkedIn posts, etc.).
 
-🛠️ What You’ll Get
+- **Web Search**: Web search integration via Tavily
 
-✅ AI chatbot trained on your professional documents (CV, portfolio, LinkedIn posts, etc.)
-✅ Web search integration via MCP server
-✅ Fully branded responses aligned with your tone and style
-✅ Clean, deployable web app (hosted or instructions provided)
-✅ Easy-to-update knowledge base for future changes
+- **API Key Integration**: Requires OpenAI entered securely via the sidebar.
 
-💰 Pricing (Fixed Packages)
-1. Starter – $1,200
+- **Deployable Web App And Knowledge Base**: Clean, deployable web app and Easy-to-update knowledge base for future changes.
 
-Chatbot trained on CV + basic documents
+## Setup
 
-Simple web app deployment
+### Requirements 
 
-Default branding tone
+1. **API Keys**:
+    - **OpenAI API Key**: Sign up at OpenAI to obtain your API key.
 
-2. Professional – $1,950
+2. **Python 3.8+**: Ensure you have Python 3.8 or higher installed.
 
-Full RAG setup with multiple sources (CV, portfolio, blog, LinkedIn)
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/cheavearo/ai_career_chatbot_rag.git
+   cd ai_career_chatbot_rag
+   ```
 
-MCP server web search integration
+2. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+### Running the App
 
-Custom prompt tuning for your professional voice
+1. Start the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
 
-1 round of revisions
+2. In the app interface:
+    - Enter your OpenAI API keys in the sidebar in a secured way. Don't have? Sign up and create OpenAI API key, refer to: https://platform.openai.com/api-keys
 
-Hosting included
+    - Click Enter
 
-3. Premium – $2,900
-
-Everything in Professional, plus:
-
-Analytics dashboard (chat usage, FAQs, insights)
-
-Advanced integrations (LinkedIn embed, API, email assistant)
-
-Ongoing support for 1 month
-
-📈 Why Choose This Project?
-
-Showcase your personal brand with cutting-edge AI
-
-Impress recruiters, clients, and collaborators with a 24/7 professional assistant
-
-Leverage state-of-the-art AI tools (RAG + MCP) to stand out from traditional chatbots
-
-⏱️ Delivery Time
-
-Starter: 1 week
-
-Professional: 2 weeks
-
-Premium: 3 weeks
-
-🧑‍💻 About Me
-
-I specialize in AI/ML engineering, MLOps, and custom chatbot development. My focus is on building AI solutions that aren’t just demos, but deployable, business-ready tools.
+    - Now, you can start conversation or ask any questions about me or do any web search as you desire.

@@ -16,22 +16,18 @@ def laod_langgraph_app():
     ui = LoadStreamlitUI()
     user_input = ui.load_streamlit_ui()
 
-    if not user_input or not user_input.get("OPENAI_API_KEY"):
-      #st.error("Error: Failed to laod user from the UI.")
-      return st.stop()
-
     # Get user message (main chat input)
     user_message = st.chat_input("Enter your messages:")
-    
     if not user_message:
-      st.warning("Please type a question to get started!")
-      # Stop processing further
-      return
-    usecase = "rag_chatbot"
-    #if not user_input or not user_input.get("OPENAI_API_KEY"):
-          #st.stop()
+       st.warning("Please type a question to get started!")
+       return
 
-  
+    if not user_input or not user_input.get("OPENAI_API_KEY"):
+      st.error("Error: Please provide your OPENAI_API_KEY above to activate the chatbot.")
+      return 
+    # Usecase selected
+    usecase = "rag_chatbot"
+
     try:
       # Configure the LLM's
       obj_llm_config = OpenAILLM(user_controls_input=user_input)
